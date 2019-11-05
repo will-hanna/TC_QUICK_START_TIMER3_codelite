@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="TC_QUICK_START_TIMER3_codelite" Database="" Version="10000">
+  <Project Name="TC_QUICK_START_TIMER3_codelite" Path="TC_QUICK_START_TIMER3_codelite.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="TC_QUICK_START_TIMER3_codelite" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="TC_QUICK_START_TIMER3_codelite" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

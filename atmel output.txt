@@ -1,0 +1,8 @@
+Severity	Code	Description	Project	File	Line
+Error		recipe for target 'src/ASF/common/utils/interrupt/interrupt_sam_nvic.o' failed	TC_QUICK_START_TIMER3	c:\users\will_\Documents\Atmel Studio\7.0\TC_QUICK_START_TIMER3\TC_QUICK_START_TIMER3\Debug\Makefile	190
+
+Severity	Code	Description	Project	File	Line
+Error		recipe for target 'src/ASF/sam0/boards/samda1_xplained_pro/board_init.o' failed	TC_QUICK_START_TIMER3	c:\users\will_\Documents\Atmel Studio\7.0\TC_QUICK_START_TIMER3\TC_QUICK_START_TIMER3\Debug\Makefile	197
+
+Severity	Code	Description	Project	File	Line
+Error		recipe for target 'src/ASF/sam0/drivers/port/port.o' failed	TC_QUICK_START_TIMER3	c:\users\will_\Documents\Atmel Studio\7.0\TC_QUICK_START_TIMER3\TC_QUICK_START_TIMER3\Debug\Makefile	204

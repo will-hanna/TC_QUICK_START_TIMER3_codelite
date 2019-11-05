@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="TC_QUICK_START_TIMER3_codelite" Version="11000" InternalType="Console">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
+  <VirtualDirectory Name="TC_QUICK_START_TIMER3">
+    <VirtualDirectory Name="Debug">
+      <File Name="TC_QUICK_START_TIMER3/Debug/Makefile"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="src">
+      <File Name="TC_QUICK_START_TIMER3/src/conf_qs_tc_timer.h"/>
+      <File Name="TC_QUICK_START_TIMER3/src/qs_tc_timer.c"/>
+      <File Name="TC_QUICK_START_TIMER3/src/asf.h"/>
+      <VirtualDirectory Name="config">
+        <File Name="TC_QUICK_START_TIMER3/src/config/conf_clocks.h"/>
+        <File Name="TC_QUICK_START_TIMER3/src/config/conf_board.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="ASF">
+        <VirtualDirectory Name="sam0">
+          <VirtualDirectory Name="drivers">
+            <VirtualDirectory Name="port">
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/port/port.c"/>
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/port/port.h"/>
+              <VirtualDirectory Name="quick_start">
+                <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/port/quick_start/qs_port_basic.h"/>
+              </VirtualDirectory>
+            </VirtualDirectory>
+            <VirtualDirectory Name="system">
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/system.h"/>
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/system.c"/>
+              <VirtualDirectory Name="interrupt">
+                <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/interrupt/system_interrupt.h"/>
+                <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/interrupt/system_interrupt.c"/>
+                <VirtualDirectory Name="system_interrupt_samda">
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/interrupt/system_interrupt_samda/system_interrupt_features.h"/>
+                </VirtualDirectory>
+              </VirtualDirectory>
+              <VirtualDirectory Name="clock">
+                <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/clock/clock.h"/>
+                <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/clock/gclk.h"/>
+                <VirtualDirectory Name="clock_samd21_r21_da_ha1">
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/clock/clock_samd21_r21_da_ha1/gclk.c"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/clock/clock_samd21_r21_da_ha1/clock_config_check.h"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/clock/clock_samd21_r21_da_ha1/clock.c"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/clock/clock_samd21_r21_da_ha1/clock_feature.h"/>
+                </VirtualDirectory>
+              </VirtualDirectory>
+              <VirtualDirectory Name="pinmux">
+                <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/pinmux/pinmux.c"/>
+                <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/pinmux/pinmux.h"/>
+                <VirtualDirectory Name="quick_start">
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/pinmux/quick_start/qs_pinmux_basic.h"/>
+                </VirtualDirectory>
+              </VirtualDirectory>
+            </VirtualDirectory>
+            <VirtualDirectory Name="tc">
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/tc/tc_interrupt.h"/>
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/tc/tc_interrupt.c"/>
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/tc/tc.h"/>
+              <VirtualDirectory Name="tc_sam_d_r_h">
+                <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/tc/tc_sam_d_r_h/tc.c"/>
+              </VirtualDirectory>
+            </VirtualDirectory>
+          </VirtualDirectory>
+          <VirtualDirectory Name="boards">
+            <VirtualDirectory Name="samda1_xplained_pro">
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/boards/samda1_xplained_pro/board_init.c"/>
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/boards/samda1_xplained_pro/samda1_xplained_pro.h"/>
+            </VirtualDirectory>
+          </VirtualDirectory>
+          <VirtualDirectory Name="utils">
+            <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/status_codes.h"/>
+            <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/compiler.h"/>
+            <VirtualDirectory Name="cmsis">
+              <VirtualDirectory Name="samda1">
+                <VirtualDirectory Name="include">
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/samda1j15a.h"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/samda1e15b.h"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/samda1e16a.h"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/samda1g15a.h"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/samda1g14b.h"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/samda1g16b.h"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/samda1j15b.h"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/samda1j14b.h"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/samda1j16b.h"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/samda1e15a.h"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/samda1g16a.h"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/samda1g15b.h"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/samda1e16b.h"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/samda1e14a.h"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/samda1e14b.h"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/samda1j16a.h"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/samda1.h"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/samda1g14a.h"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/samda1j14a.h"/>
+                  <VirtualDirectory Name="component">
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/pm.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/sercom.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/evsys.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/ac.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/port.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/pac.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/dmac.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/tcc.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/mtb.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/sysctrl.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/adc.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/hmatrixb.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/usb.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/dsu.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/dac.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/rtc.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/nvmctrl.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/tc.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/wdt.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/i2s.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/gclk.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/eic.h"/>
+                  </VirtualDirectory>
+                  <VirtualDirectory Name="instance">
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/tc5.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/pm.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/sercom3.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/evsys.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/sercom4.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/ac.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/pac2.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/tc3.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/tc7.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/tcc1.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/tcc0.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/port.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/tcc2.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/dmac.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/sercom2.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/sbmatrix.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/mtb.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/pac0.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/sercom0.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/sysctrl.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/adc.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/sercom5.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/pac1.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/sercom1.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/tc6.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/usb.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/dsu.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/dac.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/rtc.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/nvmctrl.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/tc4.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/wdt.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/i2s.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/gclk.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/eic.h"/>
+                  </VirtualDirectory>
+                  <VirtualDirectory Name="pio">
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/pio/samda1j15a.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/pio/samda1e15b.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/pio/samda1e16a.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/pio/samda1g15a.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/pio/samda1g14b.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/pio/samda1g16b.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/pio/samda1j15b.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/pio/samda1j14b.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/pio/samda1j16b.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/pio/samda1e15a.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/pio/samda1g16a.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/pio/samda1g15b.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/pio/samda1e16b.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/pio/samda1e14a.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/pio/samda1e14b.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/pio/samda1j16a.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/pio/samda1g14a.h"/>
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/pio/samda1j14a.h"/>
+                  </VirtualDirectory>
+                </VirtualDirectory>
+                <VirtualDirectory Name="source">
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/source/system_samda1.c"/>
+                  <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/source/system_samda1.h"/>
+                  <VirtualDirectory Name="gcc">
+                    <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/source/gcc/startup_samda1.c"/>
+                  </VirtualDirectory>
+                </VirtualDirectory>
+              </VirtualDirectory>
+            </VirtualDirectory>
+            <VirtualDirectory Name="preprocessor">
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/preprocessor/tpaste.h"/>
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/preprocessor/mrecursion.h"/>
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/preprocessor/preprocessor.h"/>
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/preprocessor/stringz.h"/>
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/preprocessor/mrepeat.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="header_files">
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/header_files/io.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="syscalls">
+              <VirtualDirectory Name="gcc">
+                <File Name="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/syscalls/gcc/syscalls.c"/>
+              </VirtualDirectory>
+            </VirtualDirectory>
+          </VirtualDirectory>
+        </VirtualDirectory>
+        <VirtualDirectory Name="common">
+          <VirtualDirectory Name="utils">
+            <File Name="TC_QUICK_START_TIMER3/src/ASF/common/utils/parts.h"/>
+            <File Name="TC_QUICK_START_TIMER3/src/ASF/common/utils/interrupt.h"/>
+            <VirtualDirectory Name="interrupt">
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/common/utils/interrupt/interrupt_sam_nvic.c"/>
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/common/utils/interrupt/interrupt_sam_nvic.h"/>
+            </VirtualDirectory>
+          </VirtualDirectory>
+        </VirtualDirectory>
+        <VirtualDirectory Name="thirdparty">
+          <VirtualDirectory Name="CMSIS">
+            <VirtualDirectory Name="Include">
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/thirdparty/CMSIS/Include/core_cm0plus.h"/>
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/thirdparty/CMSIS/Include/cmsis_version.h"/>
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/thirdparty/CMSIS/Include/cmsis_gcc.h"/>
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/thirdparty/CMSIS/Include/cmsis_compiler.h"/>
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/thirdparty/CMSIS/Include/mpu_armv7.h"/>
+              <File Name="TC_QUICK_START_TIMER3/src/ASF/thirdparty/CMSIS/Include/arm_math.h"/>
+            </VirtualDirectory>
+          </VirtualDirectory>
+        </VirtualDirectory>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="Cross GCC ( arm-none-eabi )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;-Wall" C_Options="-g;-O0;-Wall;-Wmain;-g;-O0;-std=c99;-Wall;-mcpu=cortex-m0plus;-mthumb;-ffunction-sections;-fdata-sections;-mno-sched-prolog;-gdwarf-2;-fmessage-length=0;-fno-builtin;-MMD;-MP" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <IncludePath Value="TC_QUICK_START_TIMER3"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/common"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/common/boards/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/common/utils/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/common/utils/interrupt/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/boards/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/boards/samda1_xplained_pro/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/port/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/port/quick_start/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/clock/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/clock/clock_samd21_r21_da_ha1/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/interrupt/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/interrupt/system_interrupt_samda/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/pinmux/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/pinmux/quick_start/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/power/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/power/power_sam_d_r_h/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/reset/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/system/reset/reset_sam_d_r_h/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/tc/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/drivers/tc/tc_sam_d_r_h/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/component/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/instance/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/include/pio/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/source/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/cmsis/samda1/source/gcc/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/header_files/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/linker_scripts/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/linker_scripts/samda1/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/linker_scripts/samda1/gcc/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/make/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/preprocessor/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/syscalls/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/syscalls/gcc/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/thirdparty/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/thirdparty/CMSIS/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/thirdparty/CMSIS/Include/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/thirdparty/CMSIS/Lib/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/ASF/thirdparty/CMSIS/Lib/GCC/"/>
+        <IncludePath Value="TC_QUICK_START_TIMER3/src/config/"/>
+        <Preprocessor Value="__SAMDA1J16A__"/>
+        <Preprocessor Value="DEBUG"/>
+        <Preprocessor Value="TC_ASYNC=true"/>
+        <Preprocessor Value="BOARD=SAMDA1_XPLAINED_PRO"/>
+        <Preprocessor Value="__SAMDA1J16A__"/>
+        <Preprocessor Value="ARM_MATH_CM0PLUS=true"/>
+      </Compiler>
+      <Linker Options="-mthumb -mabi=aapcs -mcpu=cortex-m0 -T samda1j16a_flash.ld -Wl,--gc-sections --specs=nano.specs -lc -lnosys" Required="yes">
+        <LibraryPath Value="TC_QUICK_START_TIMER3/src/ASF/sam0/utils/linker_scripts/samda1/gcc/"/>
+        <LibraryPath Value="/opt/arm-none-eabi/arm-none-eabi/lib/thumb"/>
+        <LibraryPath Value="/opt/arm-none-eabi/lib/gcc/arm-none-eabi/8.3.1/arm"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="yes" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">/opt/arm-none-eabi/bin/arm-none-eabi-size $(IntermediateDirectory)/$(ProjectName)</Command>
+        <Command Enabled="yes">/opt/arm-none-eabi/bin/arm-none-eabi-objcopy -O binary $(IntermediateDirectory)/$(ProjectName) $(IntermediateDirectory)/$(ProjectName).bin</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="Cross GCC ( arm-none-eabi )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall" C_Options="-O2;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <Preprocessor Value="NDEBUG"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(ProjectName)" IntermediateDirectory="" Command="$(WorkspacePath)/build-$(WorkspaceConfiguration)/bin/$(OutputFile)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(WorkspacePath)/build-$(WorkspaceConfiguration)/lib" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="CodeLite Make Generator"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

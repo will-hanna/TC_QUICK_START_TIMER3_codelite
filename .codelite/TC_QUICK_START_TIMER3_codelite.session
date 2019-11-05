@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session Name="/home/william/Desktop/TC_QUICK_START_TIMER3_codelite/TC_QUICK_START_TIMER3_codelite.workspace">
+  <int Value="2" Name="m_selectedTab"/>
+  <wxString Value="/home/william/Desktop/TC_QUICK_START_TIMER3_codelite/TC_QUICK_START_TIMER3_codelite.workspace" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="/home/william/Desktop/TC_QUICK_START_TIMER3_codelite/TC_QUICK_START_TIMER3/src/qs_tc_timer.c" Name="FileName"/>
+      <int Value="9" Name="FirstVisibleLine"/>
+      <int Value="36" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/william/Desktop/TC_QUICK_START_TIMER3_codelite/TC_QUICK_START_TIMER3/src/asf.h" Name="FileName"/>
+      <int Value="52" Name="FirstVisibleLine"/>
+      <int Value="55" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/william/Desktop/TC_QUICK_START_TIMER3_codelite/TC_QUICK_START_TIMER3/src/ASF/sam0/boards/samda1_xplained_pro/samda1_xplained_pro.h" Name="FileName"/>
+      <int Value="12" Name="FirstVisibleLine"/>
+      <int Value="39" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
+  <SerializedObject Name="m_breakpoints">
+    <long Value="0" Name="Count"/>
+  </SerializedObject>
+  <wxString Value="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.inc;*.mm;*.m;*.xrc" Name="m_findInFilesMask"/>
+</Session>
